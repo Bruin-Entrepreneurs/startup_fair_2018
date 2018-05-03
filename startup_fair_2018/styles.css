@@ -1,0 +1,51 @@
+body {
+	height: 100%;
+	background: linear-gradient(to bottom right, white, #00AA8D);
+}
+
+.top_header h1 {
+	color: #fff;
+	font-size: 46px;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .15em; /* Adjust as needed */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10%;
+  animation: 
+    typing 3.5s steps(35, end),
+    blink-caret .5s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 75% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  30% { border-color: transparent; }
+}
+
+.top_header h2 {
+	color: #fff;
+	font-family: monospace;
+	display: block;
+	text-align: center;
+}
+.top_header img.center_logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	width: 20%;
+	height: 35%;
+	text-align: center;
+
+}
