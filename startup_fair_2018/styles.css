@@ -1,6 +1,9 @@
-body {
+.top_header {
 	height: 100%;
-	background: linear-gradient(to bottom right, #5FA193, #011419);
+	background: linear-gradient(to bottom right, #5FA193, #04333F);
+  margin-left: -10;
+  margin-right: -10;
+  margin-top: -65;
 }
 
 .top_header h1 {
@@ -20,6 +23,7 @@ body {
     typing 3.5s steps(35, end),
     blink-caret .5s step-end infinite;
 }
+
 
 
 @keyframes typing {
@@ -49,3 +53,10 @@ body {
 	text-align: center;
 
 }
+
+.information_one {
+
+
+}
+
+.information_one 
